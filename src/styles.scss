@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+body::before{
+  display: block;
+  contain:'' ;
+  height:60px ;
+}
+.bg-primary{
+  background-color: #8562e7 !important;
+}
+.bg-warning{
+  background-color: #ffc448 !important;
+}
+.bg-dark{
+  background-color: #12141d !important;
+}
+.btn-primary{
+  background-color: #8562e7 !important;
+  border:#8562e7;
+}
+.btn-primary:hover{
+  background-color: #12141d !important;
+}
+.btn-warning{
+  background-color: #ffc448 !important;
+}
+
+.btn-dark{
+  background-color: #12141d !important;
+}
